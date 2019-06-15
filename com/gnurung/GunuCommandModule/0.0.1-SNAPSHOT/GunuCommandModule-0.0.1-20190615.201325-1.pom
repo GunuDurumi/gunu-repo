@@ -28,9 +28,10 @@
             <includes>
               <include>com/gnurung/gunucommandmodule/*.java</include>
               <include>com/gnurung/gunucommandmodule/module/CommandProcesser.java</include>
+              <include>com/gnurung/gunucommandmodule/module/ParameterType.java</include>
             </includes>
           </configuration>
-       </plugin>
+       </plugin>	
        <plugin>
             <groupId>com.github.github</groupId>
             <artifactId>site-maven-plugin</artifactId>
