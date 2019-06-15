@@ -27,7 +27,7 @@
             <encoding>UTF-8</encoding>
             <includes>
               <include>com/gnurung/gunucommandmodule/*.java</include>
-              <include>com/gnurung/gunucommandmodule/CommandProcesser.java</include>
+              <include>com/gnurung/gunucommandmodule/module/CommandProcesser.java</include>
             </includes>
           </configuration>
        </plugin>
