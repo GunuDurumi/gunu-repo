@@ -25,12 +25,6 @@
             <source>1.8</source>
             <target>1.8</target>
             <encoding>UTF-8</encoding>
-            <includes>
-              <include>com/gnurung/gunucommandmodule/Command.java</include>
-              <include>com/gnurung/gunucommandmodule/CommandData.java</include>
-              <include>com/gnurung/gunucommandmodule/module/CommandProcesser.java</include>
-              <include>com/gnurung/gunucommandmodule/module/ParameterType.java</include>
-            </includes>
           </configuration>
        </plugin>	
        <plugin>
@@ -38,7 +32,6 @@
             <artifactId>site-maven-plugin</artifactId>
             <version>0.10</version>
             <configuration>
-            	<merge>true</merge>
                 <message>Maven artifacts for ${project.version}</message>  <!-- git commit message -->
                 <noJekyll>true</noJekyll>                                  <!-- disable webpage processing -->
                 <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory> <!-- matches distribution management repository url above -->
