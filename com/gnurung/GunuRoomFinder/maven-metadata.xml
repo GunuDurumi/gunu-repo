@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>com.gnurung</groupId>
-  <artifactId>GunuCommandModule</artifactId>
+  <artifactId>GunuRoomFinder</artifactId>
   <versioning>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20190616021753</lastUpdated>
+    <lastUpdated>20190616025442</lastUpdated>
   </versioning>
 </metadata>
